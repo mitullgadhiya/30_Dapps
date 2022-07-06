@@ -2,7 +2,7 @@ const AdvancedStorage = artifacts.require('AdvancedStorage');
 
 contract('AdvancedStorage', () => {
     let advancedStorage = null;
-    before(async => () {
+    before(async () => {
         advancedStorage = await AdvancedStorage.deployed();
     });
 
